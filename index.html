@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+  <!-- Background Video -->
+<video autoplay muted loop playsinline id="background-video">
+  <source src="universe2.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+<div class="background-overlay"></div>
+
+
+<div class="social-icons">
+  <a href="mailto:sumonabanerjee117@gmail.com" title="Email">
+    <img src="https://img.icons8.com/fluency/48/000000/email-open.png" alt="Email Icon" />
+  </a>
+  <a href="https://www.linkedin.com/in/sumona-banerjee-9b2405285" target="_blank" title="LinkedIn">
+    <img src="https://img.icons8.com/color/48/linkedin.png" alt="LinkedIn Icon" />
+  </a>
+  <a href="https://github.com/sumona-banerjeee" target="_blank" title="GitHub">
+    <img src="https://img.icons8.com/nolan/48/github.png" alt="GitHub Icon" />
+  </a>
+  <a href="https://www.instagram.com/ssumona_banerjee?igsh=MXA1OXh0eTUwbnpxNg==" target="_blank" title="Instagram">
+    <img src="https://img.icons8.com/color/48/instagram-new.png" alt="Instagram Icon" />
+  </a>
+</div>
+
+
+<!-- Hero Section with Video Background -->
+<section class="hero-split video-hero" id="home">
+  <video autoplay muted loop playsinline class="hero-bg-video">
+    <source src="universe2.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+  </video>
+  <div class="video-overlay"></div>
+  <div class="hero-content">
+    <h1 id="animated-name">SUMONA BANERJEE</h1>
+    <p>Aspiring AI/ML Engineer<br>Python Developer | Web Enthusiast</p>
+    <div class="hero-buttons">
+      <a href="#about" class="btn primary">About Me</a>
+      <a href="Sumona_Banerjee_Resume.pdf" download class="btn secondary">Download Resume</a>
+    </div>
+  </div>
+  <div class="hero-image">
+    <div class="image-wrapper">
+      <img src="myimage.png" alt="Sumona Banerjee"/>
+      <div class="shape shape1"></div>
+      <div class="shape shape2"></div>
+      <div class="shape shape3"></div>
+      <div class="shape shape4"></div>
+      <div class="shape shape5"></div>
+    </div>
+  </div>
+</section>
+
+
+
+
+  <!-- About Section -->
+<section class="about" id="about">
+  <img src="your-photo.jpg" alt="Sumona Banerjee Photo" class="profile-photo" />
+  <div class="about-text">
+    <h2>About Me</h2>
+    <p>
+      I'm Sumona Banerjee, a final-year B.Tech Computer Science student specializing in Artificial Intelligence and Machine Learning at the University of Engineering and Management, Jaipur. 
+      With hands-on experience in Python development, AI research, and web technologies, I’ve contributed to impactful projects like a Hostel Incident Management System and real-time face detection tools. 
+      I'm passionate about solving real-world problems with code, and I’m constantly learning through certifications, internships, and personal projects. I bring creativity, structure, and a growth mindset to every challenge I take on.
+    </p>
+  </div>
+</section>
+
+  <!-- Projects Section -->
+  <section class="projects" id="projects">
+    <h2>My Work</h2>
+    <div class="project-grid">
+
+      <div class="project-card">
+        <img src="hostel-incident.jpg" alt="Hostel Incident Management System" />
+        <div class="project-info">
+          <h3>Hostel Incident Management System</h3>
+          <p>Web-based platform for managing student and warden reports with role-based dashboards.</p>
+          <a href="#" target="_blank"></a>
+          <a href="https://github.com/sumona-banerjeee/Hostel-Incident-Management-System" target="_blank">GitHub</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="audiobook.jpg" alt="Audiobook Creator" />
+        <div class="project-info">
+          <h3>Audiobook Creator</h3>
+          <p>Python script that converts PDF files to audio using text-to-speech technology.</p>
+          <a href="#" target="_blank"></a>
+          <a href="https://github.com/sumona-banerjeee/PDF-Reader" target="_blank">GitHub</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="techhub.jpg" alt="TechHub UI" />
+        <div class="project-info">
+          <h3>TechHub (UI Prototype)</h3>
+          <p>Frontend prototype of a developer community platform using HTML, CSS, JS, and PHP.</p>
+          <a href="#" target="_blank"></a>
+          <a href="https://github.com/sumona-banerjeee/Web_Development_Tech_Hub" target="_blank">GitHub</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="face-detection.jpg" alt="Face Detection with OpenCV" />
+        <div class="project-info">
+          <h3>Human Detection (OpenCV)</h3>
+          <p>Real-time face detection application using OpenCV in Python.</p>
+          <a href="#" target="_blank"></a>
+          <a href="https://github.com/sumona-banerjeee/Human_Detection_Tool_sb" target="_blank">GitHub</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="attendance-system.jpg" alt="Face Attendance System" />
+        <div class="project-info">
+          <h3>Face Attendance System</h3>
+          <p>Automated attendance system using facial recognition technology for identity validation.</p>
+          <a href="#" target="_blank"></a>
+          <a href="https://github.com/sumona-banerjeee/Face_Attendence_System" target="_blank">GitHub</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Resume Section -->
+  <section class="resume" id="resume">
+  <h2>Resume</h2>
+  <p>Download my resume to learn more about my education, skills, and experience.</p>
+  <a href="Sumona_Banerjee_Resume.pdf" download class="btn">Download Resume</a>
+</section>
+
+
+
+
+<!-- Skills Section -->
+<section class="skills" id="skills">
+  <h2>Technical Skills</h2>
+  <div class="skill-list">
+
+    <!-- Each row contains 2 skills side by side -->
+    <div class="skill-item"><span>Python</span><div class="skill-bar"><div class="skill-progress" data-progress="90%"></div></div></div>
+    <div class="skill-item"><span>Java</span><div class="skill-bar"><div class="skill-progress" data-progress="75%"></div></div></div>
+    <div class="skill-item"><span>HTML</span><div class="skill-bar"><div class="skill-progress" data-progress="85%"></div></div></div>
+    <div class="skill-item"><span>CSS</span><div class="skill-bar"><div class="skill-progress" data-progress="80%"></div></div></div>
+    <div class="skill-item"><span>JavaScript</span><div class="skill-bar"><div class="skill-progress" data-progress="70%"></div></div></div>
+    <div class="skill-item"><span>MySQL</span><div class="skill-bar"><div class="skill-progress" data-progress="70%"></div></div></div>
+    <div class="skill-item"><span>OpenCV</span><div class="skill-bar"><div class="skill-progress" data-progress="65%"></div></div></div>
+    <div class="skill-item"><span>TensorFlow</span><div class="skill-bar"><div class="skill-progress" data-progress="60%"></div></div></div>
+    <div class="skill-item"><span>Data Structures</span><div class="skill-bar"><div class="skill-progress" data-progress="85%"></div></div></div>
+    <div class="skill-item"><span>PHP</span><div class="skill-bar"><div class="skill-progress" data-progress="65%"></div></div></div>
+    <div class="skill-item"><span>AI & ML</span><div class="skill-bar"><div class="skill-progress" data-progress="75%"></div></div></div>
+    <div class="skill-item"><span>DBMS</span><div class="skill-bar"><div class="skill-progress" data-progress="80%"></div></div></div>
+    <div class="skill-item"><span>Operating System</span><div class="skill-bar"><div class="skill-progress" data-progress="70%"></div></div></div>
+    <div class="skill-item"><span>OOPs</span><div class="skill-bar"><div class="skill-progress" data-progress="75%"></div></div></div>
+    <div class="skill-item"><span>Agile Methodology</span><div class="skill-bar"><div class="skill-progress" data-progress="65%"></div></div></div>
+    <div class="skill-item"><span>SDLC</span><div class="skill-bar"><div class="skill-progress" data-progress="70%"></div></div></div>
+
+  </div>
+</section>
+
+
+
+  
+
+
+  <!-- Education Section -->
+<section class="education" id="education">
+  <h2>Education</h2>
+  <div class="education-row">
+
+    <div class="edu-card">
+      <div class="edu-image-container">
+        <img src="college.jpg" alt="University of Engineering and Management" />
+        <div class="edu-info">
+          <p><strong>B.Tech</strong> in CSE (AIML)</p>
+          <p>University of Engineering and Management, Jaipur</p>
+          <p>CGPA: 7.6</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="edu-card">
+      <div class="edu-image-container">
+        <img src="school.jpg" alt="Kendriya Vidyalaya HPCL, Jagiroad, Assam" />
+        <div class="edu-info">
+          <p><strong>Class 12th</strong></p>
+          <p>Kendriya Vidyalaya HPCL, Jagiroad, Assam</p>
+          <p>Percentage: 80%</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="edu-card">
+      <div class="edu-image-container">
+        <img src="schoolindus.jpg" alt="Indus Academy, Jagiroad, Assam" />
+        <div class="edu-info">
+          <p><strong>Class 10th</strong></p>
+          <p>Indus Academy, Jagiroad, Assam</p>
+          <p>Percentage: 77%</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+  <!-- Certifications Section -->
+<section id="certifications">
+  <h2>Certifications</h2>
+  <div class="cert-grid">
+    <!-- Certificate Item Example -->
+    <div class="cert-item">
+      <h3>Oracle Cloud Infrastructure 2023 AI Certified Foundations Associate</h3>
+      <p>Oracle - 2023</p>
+      <a href="oracle.png" target="_blank" class="show-btn">Show Certificate</a>
+    </div>
+
+    <div class="cert-item">
+      <h3>Introduction to Digital Marketing</h3>
+      <p>Infosys 2025</p>
+      <a href="infosys.png" target="_blank" class="show-btn">Show Certificate</a>
+    </div>
+
+    <div class="cert-item">
+      <h3>Data Analytics & Visualization Job Simulation</h3>
+      <p>Accenture 2025</p>
+      <a href="accen.png" target="_blank" class="show-btn">Show Certificate</a>
+    </div>
+
+    <div class="cert-item">
+      <h3>Python for Data Science</h3>
+      <p>IIT Madras 2023</p>
+      <a href="pds.png" target="_blank" class="show-btn">Show Certificate</a>
+    </div>
+
+    <div class="cert-item">
+      <h3>Real Time Operating System</h3>
+      <p>IIT Madras 2025</p>
+      <a href="rtos.png" target="_blank" class="show-btn">Show Certificate</a>
+    </div>
+
+    <div class="cert-item">
+      <h3>AWS Academy Cloud Foundations</h3>
+      <p>Amazon Web Services 2023</p>
+      <a href="cloud.png" target="_blank" class="show-btn">Show Certificate</a>
+    </div>
+
+    <div class="cert-item">
+      <h3>AWS Academy Machine Learning Foundations</h3>
+      <p>Amazon Web Services 2023</p>
+      <a href="awsml.png" target="_blank" class="show-btn">Show Certificate</a>
+    </div>
+
+    <div class="cert-item">
+      <h3>AI for Beginners</h3>
+      <p>HP LIFE 2024</p>
+      <a href="aihp.png" target="_blank" class="show-btn">Show Certificate</a>
+    </div>
+
+    <div class="cert-item">
+      <h3>Hacker Rank Skill Certificates for CSS, Python (Basic)</h3>
+      <p>Hacker Rank 2023</p>
+      <a href="hack.png" target="_blank" class="show-btn">Show Certificate</a>
+    </div>
+
+    <div class="cert-item">
+      <h3>The Joy of Computing Using Python</h3>
+      <p>IIT Madras 2022</p>
+      <a href="jcp.png" target="_blank" class="show-btn">Show Certificate</a>
+    </div>
+
+    <div class="cert-item">
+      <h3>Social Networks</h3>
+      <p>IIT Madras 2022</p>
+      <a href="sn.png" target="_blank" class="show-btn">Show Certificate</a>
+    </div>
+    <div class="cert-item">
+      <h3>Foundation of Cognitive Robotics</h3>
+      <p>IIT Kanpur 2024</p>
+      <a href="fcb.png" target="_blank" class="show-btn">Show Certificate</a>
+    </div>
+
+    <div class="cert-item">
+      <h3>AMCAT</h3>
+      <p>2025 Overall: 95.5 Percentile</p>
+      <a href="amcat.png" target="_blank" class="show-btn">Show Certificate</a>
+    </div>
+
+    <div class="cert-item">
+      <h3>TCS NQT</h3>
+      <p>2025 Cognitive Skills: 71.9%, Advanced Cognitive: 80.74%, Programming: 68.15%</p>
+      <a href="nqt.png" target="_blank" class="show-btn">Show Certificate</a>
+    </div>
+
+    <div class="cert-item">
+      <h3>CoCubes</h3>
+      <p>2025, Percentage: 78%</p>
+      <a href="cocubes.jpg" target="_blank" class="show-btn">Show Certificate</a>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+<!-- Languages Section -->
+<section class="languages" id="languages">
+  <h2>Languages</h2>
+  <div class="lang-grid">
+    <!-- English -->
+    <div class="lang-item">
+      <div class="lang-header">
+        <h3>English</h3>
+      </div>
+      <div class="lang-details">
+        <p><strong>Reading:</strong> Fluent</p>
+        <p><strong>Writing:</strong> Fluent</p>
+        <p><strong>Speaking:</strong> Advanced</p>
+      </div>
+    </div>
+
+    <!-- Bengali -->
+    <div class="lang-item">
+      <div class="lang-header">
+        <h3>Bengali</h3>
+      </div>
+      <div class="lang-details">
+        <p><strong>Native Language</strong></p>
+        <p><strong>Reading:</strong> Fluent</p>
+        <p><strong>Writing:</strong> Fluent</p>
+        <p><strong>Speaking:</strong> Fluent</p>
+      </div>
+    </div>
+
+    <!-- Hindi -->
+    <div class="lang-item">
+      <div class="lang-header">
+        <h3>Hindi</h3>
+      </div>
+      <div class="lang-details">
+        <p><strong>Reading:</strong> Fluent</p>
+        <p><strong>Writing:</strong> Fluent</p>
+        <p><strong>Speaking:</strong> Fluent</p>
+      </div>
+    </div>
+
+    <!-- Assamese -->
+    <div class="lang-item">
+      <div class="lang-header">
+        <h3>Assamese</h3>
+      </div>
+      <div class="lang-details">
+        <p><strong>Reading:</strong> Advanced</p>
+        <p><strong>Writing:</strong> Advanced</p>
+        <p><strong>Speaking:</strong> Intermediate</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<!-- Contact Section -->
+<section class="contact" id="contact">
+  <h2>Contact Me</h2>
+  <div class="contact-wrapper">
+    <div class="contact-item">
+      <img src="https://img.icons8.com/fluency/48/000000/email-open.png" alt="Email Icon" />
+      <a href="mailto:sumonabanerjee117@gmail.com">sumonabanerjee117@gmail.com</a>
+    </div>
+    <div class="contact-item">
+      <img src="https://img.icons8.com/color/48/linkedin.png" alt="LinkedIn Icon" />
+      <a href="https://www.linkedin.com/in/sumona-banerjee-9b2405285" target="_blank">LinkedIn</a>
+    </div>
+    <div class="contact-item">
+      <img src="https://img.icons8.com/nolan/48/github.png" alt="GitHub Icon" />
+      <a href="https://github.com/sumona-banerjeee" target="_blank">GitHub</a>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Sumona Banerjee | All Rights Reserved</p>
+  </footer>
+
+
+
+
+  
+<!-- GSAP Libraries -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+<script>
+  gsap.registerPlugin(ScrollTrigger);
+
+  // Animate each certificate item
+  gsap.utils.toArray('.cert-item').forEach((item, i) => {
+    // Random initial positions (X and Y) and rotation
+    const xStart = gsap.utils.random(-300, 300);
+    const yStart = gsap.utils.random(-300, 300);
+    const rotationStart = gsap.utils.random(-20, 20);
+
+    // Animation definition
+    gsap.from(item, {
+      x: xStart,
+      y: yStart,
+      rotation: rotationStart,
+      opacity: 0,
+      duration: 1.5,
+      ease: "power3.out",
+      scrollTrigger: {
+        trigger: item,
+        start: "top 80%", // when the item comes into view
+        toggleActions: "play none none none"
+      }
+    });
+  });
+</script>
+</body>
+</html>
